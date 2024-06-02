@@ -1,0 +1,41 @@
+.events{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    
+    place-content: center;
+    padding: 2rem;
+    justify-content: space-around;
+    gap: 2rem;
+    
+}
+.event{
+   
+    height:60vh;
+    width:100% ;
+    
+    
+    
+
+}
+ #par{
+    
+    height:14vh;
+    width:100% ;
+   letter-spacing: 1.4px;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   padding-top: 2rem;
+   padding-bottom: 3rem;
+
+    
+ } 
+.img{
+    height:50vh;
+    width:100% ;
+   background-size: cover;
+   background-position:  center;
+   background-repeat: no-repeat;
+   border-radius: 12px;   
+}
+
+   

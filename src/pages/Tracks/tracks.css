@@ -1,0 +1,119 @@
+.cos{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    padding: 3rem;
+    gap: 3rem;
+    
+}
+.coso{
+    border: 2px solid #74512D;
+    border-radius: 12px;
+    
+}
+.act{
+    display: grid;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.track{
+    height: 60vh;
+    width: 100%;
+    background: url(/src/assets/cyber.jpeg) no-repeat center/cover;
+    border-radius: 12px;
+    
+     clip-path: polygon(50% 0%, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+.track2{
+    height: 60vh;
+    width: 100%;
+    background: url(/src/assets/bi.jpeg) no-repeat center/cover;
+    border-radius: 12px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+.track3{
+    height: 60vh;
+    width: 100%;
+    background: url(/src/assets/web.jpeg) no-repeat center/cover;
+    border-radius: 12px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+.track4{
+    height: 60vh;
+    width: 100%;
+    background: url(/src/assets/ux.jpeg) no-repeat center/cover;
+    border-radius: 12px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+.track5{
+    height: 60vh;
+    width: 100%;
+    background: url(/src/assets/cloud.jpeg) no-repeat center/cover;
+    border-radius: 12px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+.track6{
+    height: 60vh;
+    width: 100%;
+    background: url(/src/assets/power.jpeg) no-repeat center/cover;
+    border-radius: 12px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+.main{
+    display: grid;
+    justify-content: space-around;
+    margin: 3rem;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem;
+    gap: 4rem;
+}
+@media screen and( size:37.75em) {
+ .map{
+    flex-wrap: wrap;
+ } 
+
+ .form{
+    flex-wrap: wrap;
+ }
+}
+.map{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; 
+    width:100%; 
+    height:100%;
+    align-items: center;
+    display: flex;  
+} 
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:stretch
+   
+
+}
+.FOR{
+    display: grid;
+    align-items: left;
+    height: 1.4rem;
+    width:100% ;
+    padding-bottom: 2rem;
+}
+.lab{
+display: flex;
+width:100%;
+height: 2.4rem;
+}
+form label{
+    width: 40rem;
+    
+}

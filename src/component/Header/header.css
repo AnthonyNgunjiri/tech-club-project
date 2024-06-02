@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --primary:"Open Sans", sans-serif;
+}
+.header{
+    background-color: #eeeeee;
+}
+  
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    font-family: var(--primary);
+}
+.header-li a{
+    text-decoration: none;
+    transition: 3ms;
+    color:#543310;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transform-style: flat;
+    font-family: var(--primary);
+}
+.header-li a:hover{
+    background-color: #74512D;
+    color: #eeeeee;
+}

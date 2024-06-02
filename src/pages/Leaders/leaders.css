@@ -1,0 +1,95 @@
+.pple{
+    border: 2px solid #74512D;
+}
+.person{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    padding: 2rem;
+    place-content: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+#profile{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/bridget.jpeg)no-repeat center/cover;
+
+}
+#profile1{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/allan.jpeg)no-repeat center/cover;
+
+}
+#profile2{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/victoria.jpeg)no-repeat center/cover;
+
+}
+#profile3{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/paul.jpeg)no-repeat center/cover;
+
+}
+#profile4{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/bridget.jpeg)no-repeat center/cover;
+
+}
+#profile5{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/ruth.jpeg)no-repeat center/cover;
+
+}
+#profile6{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/webster.jpeg)no-repeat center/cover;
+
+}
+#profile7{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/MAN.jpeg)no-repeat center/cover;
+
+}
+#profile8{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/carol.jpeg)no-repeat center/cover;
+
+}
+#profile9{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/stano.jpeg)no-repeat center/cover;
+
+}
+#profile10{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/amuze.jpeg)no-repeat center/cover;
+
+}
+#profile11{
+    height: 50vh;
+    width:100%;
+    
+    background: url(/src/assets/evyon.jpeg)no-repeat center/cover;
+
+}

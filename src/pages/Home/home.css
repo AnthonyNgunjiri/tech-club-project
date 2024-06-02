@@ -1,0 +1,147 @@
+.home{
+   display: grid;
+ place-content: center;
+ width:100%;
+ 
+}
+.home-items{
+    height:80vh;
+     width: 1350px;;;
+    display: flex;
+    gap: 1.4 rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+     background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)), url(/src/assets/deca.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     color: #eeeeee;
+     font-size: 2rem; 
+     font-weight: 600;    
+}
+@media screen and (size:37.74rem ){
+  .home-items{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+ }
+#but{
+   width:12rem;
+   height: 6rem;
+   border-radius: 10px;
+   display: grid;
+   place-content:center ;
+    border: 2px  #eeeeee;
+    padding: 2rem;
+    font-size:3rem;
+    background-color: #74512D;;
+}
+
+.buton{
+display: flex;
+justify-content: space-around;
+gap: 2rem;
+margin-top:2rem ;
+
+}
+.buton a{
+  font-size: 2.4rem;
+  color: #D36B00;
+}
+.main-title{
+  padding: 2rem;
+  display: grid;
+  place-content: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: #543310;
+  background-color: #eeeeee;
+}
+
+.about{
+  height:60vh;
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  place-content: center;
+}
+@media screen and (size:37.74rem ){
+ .about{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+}
+#about-item{
+  display: grid;
+  place-items: center;
+  height:46vh;
+  width:94%;
+
+}
+#title{
+  text-transform: capitalize;
+}
+#about{
+  display: grid;
+  place-items: center;
+  height:46vh;
+  width:100%;
+  background: url(/src/assets/HO.jpeg)no-repeat center/cover;
+  border-radius: 10px;
+}
+.test{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  border: 2px solid #74512D;
+  justify-content: space-around;
+  padding: 2rem;
+  height:60vh ;
+}
+#closet{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(/src/assets/stano.jpeg)no-repeat center/cover;
+  border: #eeeeee;
+}
+#closeti{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(/src/assets/ndia.jpeg)no-repeat center/cover;
+  border: #eeeeee;
+}
+#close{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(/src/assets/carol.jpeg)no-repeat center/cover;
+  border: #eeeeee;
+}
+#closee{
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  background: url(/src/assets/victoria.jpeg)no-repeat center/cover;
+  border: #eeeeee;
+}
+
+.card{
+  border-radius: 12px;
+  height: 56vh;
+}
+.testimonial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  flex-direction: column;
+  color:#543310;
+}
